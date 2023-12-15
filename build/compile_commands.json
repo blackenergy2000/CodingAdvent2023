@@ -1,8 +1,8 @@
 [
 {
-  "directory": "C:/C++/CodingAdvent2023/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj -c C:\\C++\\CodingAdvent2023\\main.cpp",
-  "file": "C:\\C++\\CodingAdvent2023\\main.cpp",
+  "directory": "D:/CodingAdvent2023/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj -c D:\\CodingAdvent2023\\main.cpp",
+  "file": "D:\\CodingAdvent2023\\main.cpp",
   "output": "CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj"
 }
 ]

@@ -27,7 +27,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/addr2line.exe"
+			"value" : "C:/msys64/mingw64/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -43,19 +43,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/ar.exe"
-		},
-		{
-			"name" : "CMAKE_BACKWARDS_COMPATIBILITY",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "For backwards compatibility, what version of CMake commands and syntax should this version of CMake try to support."
-				}
-			],
-			"type" : "STRING",
-			"value" : "2.4"
+			"value" : "C:/msys64/mingw64/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -79,7 +67,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/C++/CodingAdvent2023/build"
+			"value" : "d:/CodingAdvent2023/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -171,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/g++.exe"
+			"value" : "C:/msys64/mingw64/bin/g++.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -187,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcc-ar.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -203,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -315,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcc.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -331,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcc-ar.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -347,7 +335,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -459,7 +447,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/dlltool.exe"
+			"value" : "C:/msys64/mingw64/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -599,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/C++/CodingAdvent2023/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/CodingAdvent2023/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -671,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/C++/CodingAdvent2023"
+			"value" : "D:/CodingAdvent2023"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -699,7 +687,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/ld.exe"
+			"value" : "C:/msys64/mingw64/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -715,7 +703,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/ninja.exe"
+			"value" : "C:/msys64/mingw64/bin/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -811,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/nm.exe"
+			"value" : "C:/msys64/mingw64/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -839,7 +827,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/objcopy.exe"
+			"value" : "C:/msys64/mingw64/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -855,7 +843,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/objdump.exe"
+			"value" : "C:/msys64/mingw64/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -979,7 +967,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/ranlib.exe"
+			"value" : "C:/msys64/mingw64/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -995,7 +983,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/windres.exe"
+			"value" : "C:/msys64/mingw64/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -1103,7 +1091,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/readelf.exe"
+			"value" : "C:/msys64/mingw64/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1323,7 +1311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/strip.exe"
+			"value" : "C:/msys64/mingw64/bin/strip.exe"
 		},
 		{
 			"name" : "CMAKE_TAPI",
@@ -1371,7 +1359,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/gcov.exe"
+			"value" : "C:/msys64/mingw64/bin/gcov.exe"
 		},
 		{
 			"name" : "COVERAGE_EXTRA_FLAGS",
@@ -1388,150 +1376,6 @@
 			],
 			"type" : "STRING",
 			"value" : "-l"
-		},
-		{
-			"name" : "CPACK_BINARY_7Z",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build 7-Zip packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_IFW",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build IFW packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_INNOSETUP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build Inno Setup packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_NSIS",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build NSIS packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_BINARY_NUGET",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build NuGet packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_WIX",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build WiX packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_BINARY_ZIP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build ZIP packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
-			"name" : "CPACK_SOURCE_7Z",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build 7-Zip source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
-		},
-		{
-			"name" : "CPACK_SOURCE_ZIP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable to build ZIP source packages"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
 		},
 		{
 			"name" : "CTEST_SUBMIT_RETRY_COUNT",
@@ -1575,7 +1419,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/C++/CodingAdvent2023/build"
+			"value" : "D:/CodingAdvent2023/build"
 		},
 		{
 			"name" : "CodingAdvent2023_IS_TOP_LEVEL",
@@ -1599,7 +1443,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/C++/CodingAdvent2023"
+			"value" : "D:/CodingAdvent2023"
 		},
 		{
 			"name" : "DART_TESTING_TIMEOUT",
@@ -1618,18 +1462,6 @@
 			"value" : "1500"
 		},
 		{
-			"name" : "EXECUTABLE_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all executables."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
-		},
-		{
 			"name" : "GITCOMMAND",
 			"properties" : 
 			[
@@ -1644,18 +1476,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/Program Files/Git/cmd/git.exe"
-		},
-		{
-			"name" : "LIBRARY_OUTPUT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Single output directory for building all libraries."
-				}
-			],
-			"type" : "PATH",
-			"value" : ""
 		},
 		{
 			"name" : "MAKECOMMAND",
@@ -1719,7 +1539,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "DESKTOP-IHM2B4U"
+			"value" : "DESKTOP-Q0HNUHI"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

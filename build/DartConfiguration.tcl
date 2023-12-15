@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/C++/CodingAdvent2023
-BuildDirectory: C:/C++/CodingAdvent2023/build
+SourceDirectory: D:/CodingAdvent2023
+BuildDirectory: D:/CodingAdvent2023/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: DESKTOP-IHM2B4U
+Site: DESKTOP-Q0HNUHI
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-ninja
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/C++/CodingAdvent2023"
+ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "D:/CodingAdvent2023"
 MakeCommand: "C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: C:/msys64/ucrt64/bin/g++.exe
-CompilerVersion: 13.2.0
+Compiler: C:/msys64/mingw64/bin/g++.exe
+CompilerVersion: 12.2.0
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 
@@ -81,7 +81,7 @@ MemoryCheckCommandOptions:
 MemoryCheckSuppressionFile: 
 
 # Coverage
-CoverageCommand: C:/msys64/ucrt64/bin/gcov.exe
+CoverageCommand: C:/msys64/mingw64/bin/gcov.exe
 CoverageExtraFlags: -l
 
 # Testing options

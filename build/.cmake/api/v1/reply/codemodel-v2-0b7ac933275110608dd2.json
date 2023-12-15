@@ -301,8 +301,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/C++/CodingAdvent2023/build",
-		"source" : "C:/C++/CodingAdvent2023"
+		"build" : "D:/CodingAdvent2023/build",
+		"source" : "D:/CodingAdvent2023"
 	},
 	"version" : 
 	{

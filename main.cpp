@@ -1,4 +1,4 @@
-#include <iostream>
+  #include <iostream>
 #include <fstream>
 #include <string>
 #include <algorithm>
@@ -6,23 +6,20 @@
 #include <stdint.h>
 
 struct FloorCounter {
-  int32_t floorCount { 0 };
 
-  bool basementReached { false };
+  std::vector<uint8_t> numbers { };
 
-  uint32_t readSigns{ 0 };
+  unsigned total { 0 };
 
-   const std::function<void(const char&)> calculate = [this](const char& sign) {
-      this->readSigns++;
-      if(sign == '(')
-        this->floorCount++;
-      else if(sign == ')')
-        this->floorCount--;
-      if(floorCount <= -1 and not(basementReached)) {
-        basementReached = true;
-        std::cout << "Im Erdgeschoss angekommen bei !" << readSigns;
-      } 
-    };     
+  FloorCounter() {
+    this->numbers.reserve(10);
+  }
+
+  const std::function<void(const char&)> saveSign = [this](const char& sign) {
+      if( isdigit(sign) ) {
+        this->numbers.push_back(static_cast<uint8_t>(sign)-48);
+      }
+  };     
 };
 
 int main() {
@@ -30,17 +27,37 @@ int main() {
   FloorCounter myCounter { };
 
   std::ifstream myfile {"../code.txt"};
-  std::string line;
+  std::string line;     
   
   if (myfile.is_open()) {
-    std::getline(myfile, line);
-    myfile.close();  // Close the file explicitly
-    std::for_each(line.begin(), line.end(), [&](const char& sign) {
-      myCounter.calculate(sign);
-    });
+    while(not myfile.eof()) { 
+      std::getline(myfile, line);
+        std::for_each(line.begin(), line.end(), [&](const char& sign) {
+        myCounter.saveSign(sign);
+      });
+      //Build the sum of the single digits
+      uint8_t digit { 0 };
+      switch(  myCounter.numbers.size() ) { 
+        case 0:
+          break;
+        case 1:
+          digit = myCounter.numbers.at(0);
+          myCounter.total += static_cast<unsigned>(digit*10 + digit);
+          break;
+        default:
+          if( myCounter.numbers.size() >= 2) { 
+            myCounter.total += static_cast<unsigned>(myCounter.numbers.front() * 10 + myCounter.numbers.back());
+          }
+          break;
+      }
+      //The datafield needs to be cleared for the usage together with the next line s
+      myCounter.numbers.clear();
+    }
+    std::cout << "The sum of the decrypter numbers is: " << myCounter.total;
+     
   }
   else {
-    std::cerr << "Datei konnte nicht geoeffnet werden !" << std::endl;
+    std::cerr << "File could not be opened!" << std::endl;
   }
   return 0;
 }
