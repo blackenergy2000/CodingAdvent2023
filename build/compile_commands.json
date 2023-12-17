@@ -1,8 +1,14 @@
 [
 {
   "directory": "D:/CodingAdvent2023/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj -c D:\\CodingAdvent2023\\main.cpp",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/CodingAdvent2023/cubeGame/Game.h -g -std=gnu++17 -o CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj -c D:\\CodingAdvent2023\\main.cpp",
   "file": "D:\\CodingAdvent2023\\main.cpp",
   "output": "CMakeFiles\\CodingAdvent2023.dir\\main.cpp.obj"
+},
+{
+  "directory": "D:/CodingAdvent2023/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -ID:/CodingAdvent2023/cubeGame/Game.h -g -std=gnu++17 -o CMakeFiles\\CodingAdvent2023.dir\\cubeGame\\Game.cpp.obj -c D:\\CodingAdvent2023\\cubeGame\\Game.cpp",
+  "file": "D:\\CodingAdvent2023\\cubeGame\\Game.cpp",
+  "output": "CMakeFiles\\CodingAdvent2023.dir\\cubeGame\\Game.cpp.obj"
 }
 ]

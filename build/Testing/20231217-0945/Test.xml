@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="Win32-ninja"
-	BuildStamp="20231216-0713-Experimental"
+	BuildStamp="20231217-0945-Experimental"
 	Name="DESKTOP-Q0HNUHI"
 	Generator="ctest-3.28.0"
 	CompilerName="C:/msys64/mingw64/bin/g++.exe"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="34730"
 	TotalPhysicalMemory="32682"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3400"
+	ProcessorClockFrequency="3424"
 	>
 	<Testing>
-		<StartDateTime>Dec 16 22:04 Mitteleurop[NON-UTF-8-BYTE-0xE4]ische Zeit</StartDateTime>
-		<StartTestTime>1702760678</StartTestTime>
+		<StartDateTime>Dec 17 10:45 Mitteleurop[NON-UTF-8-BYTE-0xE4]ische Zeit</StartDateTime>
+		<StartTestTime>1702806322</StartTestTime>
 		<TestList/>
-		<EndDateTime>Dec 16 22:04 Mitteleurop[NON-UTF-8-BYTE-0xE4]ische Zeit</EndDateTime>
-		<EndTestTime>1702760678</EndTestTime>
+		<EndDateTime>Dec 17 10:45 Mitteleurop[NON-UTF-8-BYTE-0xE4]ische Zeit</EndDateTime>
+		<EndTestTime>1702806322</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

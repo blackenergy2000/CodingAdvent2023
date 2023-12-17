@@ -1,7 +1,6 @@
 #ifndef __GAME_H__
 #define __GAME_H__
 
-#include "cubeGame/Cube.h"
 #include <array>
 #include <vector>
 #include <string>
@@ -19,13 +18,15 @@ class Game {
 
 public: 
 
-    explicit Game(const std::string gameDescription);
+    explicit Game(std::string gameDescription);
     Game(size_t red, size_t green, size_t blue);
-
-    const std::array<size_t,3>& getMaximumForColorCubes(std::vector<SubGame>& refToSubgamesList);
+    size_t getId() const;
+    void getMaximumForColorCubes(std::vector<SubGame>& refToSubgamesList);
 
 
 private:
+
+    size_t id;
 
     std::array<size_t, 3> maximumAmountOfColors {0,0,0};
 
@@ -39,6 +40,7 @@ public:
         return true;
     }
 
+private:
     /*****************************************************************************************
      * @class SubGame
      * @brief This class represents a drawing order of a game.
@@ -74,7 +76,7 @@ public:
         }
 
         const std::array<size_t, 3>& getColorsOfSubGame();
-        bool isRealistic()
+        bool isRealistic();
     };
 
 }; 
