@@ -40,6 +40,8 @@ public:
         return true;
     }
 
+    const std::array<size_t, 3>& getColorAmountsForLegalGame() const;
+
 private:
     /*****************************************************************************************
      * @class SubGame

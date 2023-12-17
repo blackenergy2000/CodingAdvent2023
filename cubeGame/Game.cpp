@@ -47,6 +47,11 @@ void Game::getMaximumForColorCubes(std::vector<SubGame>& refToSubgamesList) {
 size_t Game::getId() const{
     return this->id;
 }
+    
+const std::array<size_t, 3>& Game::getColorAmountsForLegalGame() const {
+    return this->maximumAmountOfColors;
+};
+
 
 const std::array<size_t, 3>& Game::SubGame::getColorsOfSubGame() {
     return this->amountForTheColors;

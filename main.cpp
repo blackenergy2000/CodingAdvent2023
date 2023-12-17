@@ -3,8 +3,6 @@
 #include "cubeGame/Game.h"
 
 int main(){
-  //Game to which the comparison has to be made
-  cubeGame::Game myGame {12,13,14};
   //File with the events that need to be checked
   auto nameOfFile {"../code.txt"};
   std::ifstream myFile { nameOfFile }; 
@@ -17,12 +15,16 @@ int main(){
     gamesToCheck.emplace_back(line);
   }
   //Execute the check
-  size_t correctGames { 0 };
-  std::for_each(gamesToCheck.begin(), gamesToCheck.end(), [&correctGames, &myGame](const cubeGame::Game& gameToCheck){
-    if(myGame >= gameToCheck)
-      correctGames += gameToCheck.getId();
+  size_t totalPower { 0 };
+  std::for_each(gamesToCheck.begin(), gamesToCheck.end(), [&totalPower](const cubeGame::Game& gameToCheck){
+    auto powerElements = gameToCheck.getColorAmountsForLegalGame();
+    size_t power { 1 };
+    std::for_each(powerElements.begin(), powerElements.end(), [&power](const size_t& colorPower) {
+      power *= colorPower;
+    });
+    totalPower += power;
   });
 
-  std::cout<<"The amount of legal games is: " << correctGames;
+  std::cout<<"The amount of legal games is: " << totalPower;
   return 0;
 }
