@@ -1,0 +1,7 @@
+# ninja log v5
+10	333	7245475959589284	CMakeFiles/Day01_Part1.dir/day1/part01/main.cpp.obj	4714fc3be8db99f8
+334	414	7245475960371281	Day01_Part1.exe	ccfe8f45493dabe6
+2	884	7245488245007120	CMakeFiles/Day03_Part1.dir/day3/part01/main.cpp.obj	914775edcc8ec63f
+893	1103	7245488247022835	Day03_Part1.exe	af40f4bc83c96c8f
+4	505	7245488722566113	CMakeFiles/Day03_Part1.dir/day3/part01/main.cpp.obj	914775edcc8ec63f
+506	612	7245488723606698	Day03_Part1.exe	af40f4bc83c96c8f

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/CodingAdvent2023/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -g -std=gnu++17 -o CMakeFiles\\Day03_Part1.dir\\day3\\part01\\main.cpp.obj -c D:\\CodingAdvent2023\\day3\\part01\\main.cpp",
+  "file": "D:\\CodingAdvent2023\\day3\\part01\\main.cpp",
+  "output": "CMakeFiles\\Day03_Part1.dir\\day3\\part01\\main.cpp.obj"
+}
+]
