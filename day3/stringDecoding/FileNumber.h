@@ -3,6 +3,8 @@
 
 #include <array>
 #include <utility>
+#include <cstdint>
+#include <string>
 
 class FileNumber { 
 

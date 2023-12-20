@@ -1,6 +1,6 @@
 #include "LineDecoder.h"
 
-LineDecoder::LineDecoder(const std::string line, const size_t row,
+LineDecoder::LineDecoder(const std::string line, size_t row,
                         std::vector<FileNumber>& numbers,
                         std::vector<FileSymbol>& symbols) {
     size_t numberLength { 0 }; 

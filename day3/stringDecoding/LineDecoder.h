@@ -15,7 +15,7 @@ class LineDecoder {
 public:
     //Using copy for string over reference due to small string optimization
     LineDecoder(const std::string line,
-                const size_t row,
+                size_t row,
                 std::vector<FileNumber>& numbers,
                 std::vector<FileSymbol>& symbols);
 };

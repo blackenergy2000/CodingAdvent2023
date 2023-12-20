@@ -4,6 +4,7 @@
 #include "../stringDecoding/FileNumber.h"
 #include "../stringDecoding/FileSymbol.h"
 #include "../stringDecoding/LineDecoder.h"
+#include "../accumulationUnit/AccumulationUnit.h"
 
 int main() { 
   auto nameOfFile {"../day3/part01/code.txt"};
@@ -18,7 +19,5 @@ int main() {
       LineDecoder decoder { line, lineCounter, numbers, symbols};
       lineCounter++;
   }
-
-  
-
+  AccumulationUnit calcUnit { numbers, symbols };
 }

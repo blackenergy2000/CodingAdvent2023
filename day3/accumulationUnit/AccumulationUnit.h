@@ -1,12 +1,15 @@
+#include <vector>
+#include "../stringDecoding/FileNumber.h"
+#include "../stringDecoding/FileSymbol.h"
 
 /*****************************************************************************************
 * @class AccumulationUnit
 * @brief Class that find the numbers that are legal in the context of the assignment.
 * (Numbers that have a distance of 1 to symbols)
 *****************************************************************************************/
-class AccumulaionUnit {
+class AccumulationUnit {
 public:
-    AccumulationUnit(const std::vector<const Number>& numbers, 
-                     const std::vector<const Symbol>& symbols);
+    AccumulationUnit(const std::vector<FileNumber>& numbers, 
+                     const std::vector<FileSymbol>& symbols);
 
-}
+};
