@@ -19,16 +19,6 @@ int main() {
       lineCounter++;
   }
 
-  for (auto FileNumber : numbers) {
-    std::cout << "FileNumber:" << std::endl;
-    std::cout << "Value: " << FileNumber.value <<
-      "Row: " << FileNumber.row <<
-      "Col-Start: " << FileNumber.columnArea.first << 
-      "Col-Stop: " << FileNumber.columnArea.second  << std::endl;
-  }
+  
 
-  for( auto FileSymbol : symbols ) {
-    std::cout << "FileSymbol:" << std::endl;
-    std::cout << "Row: " << FileSymbol.position.first << "Column: " << FileSymbol.position.second << std::endl;
-  }
 }
