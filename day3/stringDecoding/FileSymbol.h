@@ -19,6 +19,5 @@ FileSymbol(const size_t row, const size_t column) : position{std::make_pair(row,
  * The second value represents the column of the FileSymbol. 
 *****************************************************************************************/
 const std::pair<const size_t, const size_t> position;
-
 };
 #endif // __FILESYMBOL_H__
