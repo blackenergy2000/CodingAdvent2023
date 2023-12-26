@@ -1,3 +1,6 @@
+#ifndef __FILEREADER_H__
+#define __FILEREADER_H__
+
 #include <string>
 #include "../card/Card.h"
 
@@ -9,11 +12,8 @@
 class FileReader {
 
 public:
-
-    FileReader(const std::string& fileString, std::vector<Card> cards);
-
-private:
-
-    void convertLineToNumbers(std::string line, std::vector<size_t> numbers);
-
+    FileReader(const std::string& fileString, std::vector<Card>& cards);
+private:   
+    void convertLineToNumbers(std::string line, std::vector<size_t>& numbers);
 };
+#endif // __FILEREADER_H__

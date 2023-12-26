@@ -6,7 +6,7 @@
 int main() {
     std::vector<Card> allCards { };
     //Read the data
-    FileReader fileDecoder {"../day4/part1/data.txt", allCards};
+    FileReader fileDecoder {"../day4/part2/data.txt", allCards};
     CalculationUnit calcUnit {allCards};
     return 0;
 }
